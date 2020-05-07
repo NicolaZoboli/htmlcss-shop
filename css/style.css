@@ -20,6 +20,10 @@
   background-color: green;
 }
 
+.small {
+  background-color: red;
+}
+
 .heart {
   display: none;
   color: red;
