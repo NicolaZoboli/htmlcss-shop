@@ -4,38 +4,38 @@
   box-sizing: border-box;
 }
 
-.container {
+#container {
   display: inline-block;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
-.row {
+#container .row {
   margin-top: 30px;
 }
 
-.item {
+.row .item {
   display: inline-block;
   position: relative;
 }
 
-.discount {
+.row .item .discount {
   position: absolute;
   top: 0;
   right: 0;
   padding: 2px;
 }
 
-.big {
+.row .item .big {
   background-color: green;
 }
 
-.small {
+.row .item .small {
   background-color: red;
 }
 
-.heart {
+.row .item .heart {
   display: none;
   color: red;
   font-size: 30px;
