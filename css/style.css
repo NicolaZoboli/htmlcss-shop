@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.item {
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+}
+
+.big {
+  background-color: green;
+}
