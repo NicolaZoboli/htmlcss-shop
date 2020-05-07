@@ -19,3 +19,13 @@
 .big {
   background-color: green;
 }
+
+.heart {
+  display: none;
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
